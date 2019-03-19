@@ -26,4 +26,6 @@ rss = PyRSS2Gen.RSS2(
     ]
 )
 
-rss.write_xml(open("pyrss2gen.xml", "w"))
+print(rss)
+
+# rss.write_xml(open("pyrss2gen.xml", "w"))
